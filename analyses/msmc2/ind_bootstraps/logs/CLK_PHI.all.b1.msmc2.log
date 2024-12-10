@@ -1,0 +1,317 @@
+Version:                       2.1.4
+input files:                   ["/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr10.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr11.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr12.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr13.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr14.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr15.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr16.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr17.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr18.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr19.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr1.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr20.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr21.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr22.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr23.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr24.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr2.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr3.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr4.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr5.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr6.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr7.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr8.multihet.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/CLK_PHI.chr9.multihet.txt"]
+maxIterations:                 100
+mutationRate:                  0.00158775
+recombinationRate:             0.000396936
+timeSegmentPattern:            [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+nrThreads:                     24
+outFilePrefix:                 /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results_bootstraps/CLK_PHI.all.b1.msmc2
+hmmStrideWidth:                1000
+fixedRecombination:            false
+initialLambdaVec:              []
+skipAmbiguous:                 true
+pairIndices:                   [[18, 19], [18, 0], [18, 1], [18, 12], [18, 13], [19, 0], [19, 1], [19, 12], [19, 13], [0, 1], [0, 12], [0, 13], [1, 12], [1, 13], [12, 13]]
+logging information written to /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results_bootstraps/CLK_PHI.all.b1.msmc2.log
+loop information written to    /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results_bootstraps/CLK_PHI.all.b1.msmc2.loop.txt
+final results written to       /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results_bootstraps/CLK_PHI.all.b1.msmc2.final.txt
+time factor:                   1
+[1/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [63/360] Expectation Step  * [89/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [180/360] Expectation Step  * [217/360] Expectation Step  * [244/360] Expectation Step  * [268/360] Expectation Step  * [297/360] Expectation Step  * [324/360] Expectation Step  * [349/360] Expectation Step, log likelihood: -1.25768e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 177625, after:177589
+[2/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [27/360] Expectation Step  * [53/360] Expectation Step  * [77/360] Expectation Step  * [102/360] Expectation Step  * [134/360] Expectation Step  * [156/360] Expectation Step  * [191/360] Expectation Step  * [225/360] Expectation Step  * [250/360] Expectation Step  * [274/360] Expectation Step  * [295/360] Expectation Step  * [319/360] Expectation Step  * [345/360] Expectation Step, log likelihood: -1.2571e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 178220, after:178204
+[3/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [27/360] Expectation Step  * [51/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [132/360] Expectation Step  * [158/360] Expectation Step  * [194/360] Expectation Step  * [220/360] Expectation Step  * [228/360] Expectation Step  * [252/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [324/360] Expectation Step  * [347/360] Expectation Step, log likelihood: -1.25681e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 178711, after:178702
+[4/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [64/360] Expectation Step  * [82/360] Expectation Step  * [104/360] Expectation Step  * [139/360] Expectation Step  * [164/360] Expectation Step  * [196/360] Expectation Step  * [212/360] Expectation Step  * [234/360] Expectation Step  * [262/360] Expectation Step  * [287/360] Expectation Step  * [313/360] Expectation Step  * [335/360] Expectation Step  * [359/360] Expectation Step, log likelihood: -1.25665e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 179164, after:179158
+[5/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [27/360] Expectation Step  * [53/360] Expectation Step  * [78/360] Expectation Step  * [102/360] Expectation Step  * [128/360] Expectation Step  * [152/360] Expectation Step  * [185/360] Expectation Step  * [202/360] Expectation Step  * [227/360] Expectation Step  * [254/360] Expectation Step  * [277/360] Expectation Step  * [303/360] Expectation Step  * [327/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25655e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 179599, after:179595
+[6/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [46/360] Expectation Step  * [60/360] Expectation Step  * [87/360] Expectation Step  * [105/360] Expectation Step  * [136/360] Expectation Step  * [158/360] Expectation Step  * [186/360] Expectation Step  * [209/360] Expectation Step  * [240/360] Expectation Step  * [263/360] Expectation Step  * [283/360] Expectation Step  * [309/360] Expectation Step  * [332/360] Expectation Step  * [357/360] Expectation Step, log likelihood: -1.25648e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 180023, after:180021
+[7/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [60/360] Expectation Step  * [91/360] Expectation Step  * [110/360] Expectation Step  * [131/360] Expectation Step  * [152/360] Expectation Step  * [190/360] Expectation Step  * [215/360] Expectation Step  * [230/360] Expectation Step  * [257/360] Expectation Step  * [285/360] Expectation Step  * [311/360] Expectation Step  * [337/360] Expectation Step  * [359/360] Expectation Step, log likelihood: -1.25643e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 180440, after:180438
+[8/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [31/360] Expectation Step  * [56/360] Expectation Step  * [77/360] Expectation Step  * [100/360] Expectation Step  * [134/360] Expectation Step  * [157/360] Expectation Step  * [191/360] Expectation Step  * [215/360] Expectation Step  * [228/360] Expectation Step  * [252/360] Expectation Step  * [276/360] Expectation Step  * [300/360] Expectation Step  * [325/360] Expectation Step  * [350/360] Expectation Step, log likelihood: -1.25639e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 180852, after:180850
+[9/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [71/360] Expectation Step  * [92/360] Expectation Step  * [112/360] Expectation Step  * [130/360] Expectation Step  * [155/360] Expectation Step  * [190/360] Expectation Step  * [213/360] Expectation Step  * [231/360] Expectation Step  * [258/360] Expectation Step  * [281/360] Expectation Step  * [306/360] Expectation Step  * [331/360] Expectation Step  * [354/360] Expectation Step, log likelihood: -1.25637e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 181258, after:181256
+[10/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [48/360] Expectation Step  * [55/360] Expectation Step  * [79/360] Expectation Step  * [105/360] Expectation Step  * [146/360] Expectation Step  * [172/360] Expectation Step  * [180/360] Expectation Step  * [207/360] Expectation Step  * [240/360] Expectation Step  * [264/360] Expectation Step  * [289/360] Expectation Step  * [311/360] Expectation Step  * [335/360] Expectation Step  * [359/360] Expectation Step, log likelihood: -1.25634e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 181639, after:181639
+[11/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [40/360] Expectation Step  * [64/360] Expectation Step  * [87/360] Expectation Step  * [113/360] Expectation Step  * [134/360] Expectation Step  * [154/360] Expectation Step  * [185/360] Expectation Step  * [203/360] Expectation Step  * [236/360] Expectation Step  * [263/360] Expectation Step  * [289/360] Expectation Step  * [315/360] Expectation Step  * [340/360] Expectation Step, log likelihood: -1.25634e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step  * [3/200(max)] Maximization Step, Q-function before: 181683, after:181683
+[12/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [35/360] Expectation Step  * [68/360] Expectation Step  * [84/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [152/360] Expectation Step  * [187/360] Expectation Step  * [211/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [327/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25634e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181698, after:181698
+[13/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [30/360] Expectation Step  * [55/360] Expectation Step  * [81/360] Expectation Step  * [102/360] Expectation Step  * [136/360] Expectation Step  * [157/360] Expectation Step  * [194/360] Expectation Step  * [211/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181698, after:181698
+[14/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [33/360] Expectation Step  * [64/360] Expectation Step  * [89/360] Expectation Step  * [112/360] Expectation Step  * [141/360] Expectation Step  * [168/360] Expectation Step  * [178/360] Expectation Step  * [201/360] Expectation Step  * [236/360] Expectation Step  * [264/360] Expectation Step  * [285/360] Expectation Step  * [311/360] Expectation Step  * [336/360] Expectation Step  * [358/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181695, after:181695
+[15/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [29/360] Expectation Step  * [53/360] Expectation Step  * [76/360] Expectation Step  * [105/360] Expectation Step  * [140/360] Expectation Step  * [157/360] Expectation Step  * [188/360] Expectation Step  * [203/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181689, after:181689
+[16/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [33/360] Expectation Step  * [64/360] Expectation Step  * [93/360] Expectation Step  * [116/360] Expectation Step  * [130/360] Expectation Step  * [158/360] Expectation Step  * [194/360] Expectation Step  * [215/360] Expectation Step  * [244/360] Expectation Step  * [267/360] Expectation Step  * [297/360] Expectation Step  * [323/360] Expectation Step  * [347/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181684, after:181684
+[17/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [46/360] Expectation Step  * [62/360] Expectation Step  * [83/360] Expectation Step  * [105/360] Expectation Step  * [145/360] Expectation Step  * [169/360] Expectation Step  * [176/360] Expectation Step  * [201/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181678, after:181678
+[18/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [38/360] Expectation Step  * [61/360] Expectation Step  * [78/360] Expectation Step  * [101/360] Expectation Step  * [127/360] Expectation Step  * [151/360] Expectation Step  * [178/360] Expectation Step  * [204/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [347/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181673, after:181673
+[19/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [60/360] Expectation Step  * [91/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [154/360] Expectation Step  * [189/360] Expectation Step  * [216/360] Expectation Step  * [241/360] Expectation Step  * [266/360] Expectation Step  * [295/360] Expectation Step  * [319/360] Expectation Step  * [343/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181668, after:181668
+[20/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [46/360] Expectation Step  * [68/360] Expectation Step  * [91/360] Expectation Step  * [112/360] Expectation Step  * [136/360] Expectation Step  * [157/360] Expectation Step  * [184/360] Expectation Step  * [205/360] Expectation Step  * [233/360] Expectation Step  * [257/360] Expectation Step  * [281/360] Expectation Step  * [306/360] Expectation Step  * [331/360] Expectation Step  * [356/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181663, after:181663
+[21/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [47/360] Expectation Step  * [67/360] Expectation Step  * [83/360] Expectation Step  * [111/360] Expectation Step  * [130/360] Expectation Step  * [156/360] Expectation Step  * [195/360] Expectation Step  * [223/360] Expectation Step  * [248/360] Expectation Step  * [270/360] Expectation Step  * [298/360] Expectation Step  * [320/360] Expectation Step  * [344/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181660, after:181660
+[22/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [48/360] Expectation Step  * [73/360] Expectation Step  * [100/360] Expectation Step  * [125/360] Expectation Step  * [150/360] Expectation Step  * [173/360] Expectation Step  * [182/360] Expectation Step  * [202/360] Expectation Step  * [234/360] Expectation Step  * [258/360] Expectation Step  * [285/360] Expectation Step  * [309/360] Expectation Step  * [332/360] Expectation Step  * [354/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181654, after:181654
+[23/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [29/360] Expectation Step  * [54/360] Expectation Step  * [78/360] Expectation Step  * [104/360] Expectation Step  * [144/360] Expectation Step  * [160/360] Expectation Step  * [192/360] Expectation Step  * [211/360] Expectation Step  * [230/360] Expectation Step  * [254/360] Expectation Step  * [280/360] Expectation Step  * [305/360] Expectation Step  * [332/360] Expectation Step  * [357/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181648, after:181648
+[24/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [31/360] Expectation Step  * [63/360] Expectation Step  * [86/360] Expectation Step  * [102/360] Expectation Step  * [135/360] Expectation Step  * [161/360] Expectation Step  * [197/360] Expectation Step  * [217/360] Expectation Step  * [245/360] Expectation Step  * [266/360] Expectation Step  * [295/360] Expectation Step  * [323/360] Expectation Step  * [349/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181649, after:181649
+[25/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [54/360] Expectation Step  * [80/360] Expectation Step  * [107/360] Expectation Step  * [127/360] Expectation Step  * [153/360] Expectation Step  * [187/360] Expectation Step  * [212/360] Expectation Step  * [228/360] Expectation Step  * [253/360] Expectation Step  * [278/360] Expectation Step  * [302/360] Expectation Step  * [327/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181643, after:181643
+[26/100] Baumwelch iteration
+  * [3/360] Expectation Step  * [32/360] Expectation Step  * [63/360] Expectation Step  * [90/360] Expectation Step  * [112/360] Expectation Step  * [130/360] Expectation Step  * [153/360] Expectation Step  * [186/360] Expectation Step  * [206/360] Expectation Step  * [237/360] Expectation Step  * [265/360] Expectation Step  * [289/360] Expectation Step  * [313/360] Expectation Step  * [338/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181641, after:181641
+[27/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [43/360] Expectation Step  * [59/360] Expectation Step  * [88/360] Expectation Step  * [105/360] Expectation Step  * [140/360] Expectation Step  * [167/360] Expectation Step  * [176/360] Expectation Step  * [205/360] Expectation Step  * [232/360] Expectation Step  * [257/360] Expectation Step  * [283/360] Expectation Step  * [305/360] Expectation Step  * [327/360] Expectation Step  * [355/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181635, after:181635
+[28/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [44/360] Expectation Step  * [62/360] Expectation Step  * [91/360] Expectation Step  * [122/360] Expectation Step  * [148/360] Expectation Step  * [171/360] Expectation Step  * [180/360] Expectation Step  * [214/360] Expectation Step  * [238/360] Expectation Step  * [263/360] Expectation Step  * [290/360] Expectation Step  * [311/360] Expectation Step  * [334/360] Expectation Step  * [357/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181633, after:181633
+[29/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [38/360] Expectation Step  * [57/360] Expectation Step  * [86/360] Expectation Step  * [110/360] Expectation Step  * [128/360] Expectation Step  * [159/360] Expectation Step  * [199/360] Expectation Step  * [224/360] Expectation Step  * [249/360] Expectation Step  * [273/360] Expectation Step  * [293/360] Expectation Step  * [319/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181632, after:181632
+[30/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [50/360] Expectation Step  * [75/360] Expectation Step  * [100/360] Expectation Step  * [138/360] Expectation Step  * [163/360] Expectation Step  * [196/360] Expectation Step  * [217/360] Expectation Step  * [236/360] Expectation Step  * [260/360] Expectation Step  * [284/360] Expectation Step  * [308/360] Expectation Step  * [333/360] Expectation Step  * [355/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181630, after:181630
+[31/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [29/360] Expectation Step  * [51/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [126/360] Expectation Step  * [152/360] Expectation Step  * [182/360] Expectation Step  * [201/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [277/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [356/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step, Q-function before: 181628, after:181628
+[32/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [47/360] Expectation Step  * [71/360] Expectation Step  * [86/360] Expectation Step  * [107/360] Expectation Step  * [128/360] Expectation Step  * [160/360] Expectation Step  * [199/360] Expectation Step  * [223/360] Expectation Step  * [245/360] Expectation Step  * [272/360] Expectation Step  * [293/360] Expectation Step  * [317/360] Expectation Step  * [346/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181621, after:181621
+[33/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [39/360] Expectation Step  * [62/360] Expectation Step  * [82/360] Expectation Step  * [108/360] Expectation Step  * [131/360] Expectation Step  * [154/360] Expectation Step  * [187/360] Expectation Step  * [210/360] Expectation Step  * [242/360] Expectation Step  * [267/360] Expectation Step  * [295/360] Expectation Step  * [319/360] Expectation Step  * [345/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181620, after:181620
+[34/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [37/360] Expectation Step  * [57/360] Expectation Step  * [81/360] Expectation Step  * [102/360] Expectation Step  * [140/360] Expectation Step  * [164/360] Expectation Step  * [195/360] Expectation Step  * [223/360] Expectation Step  * [247/360] Expectation Step  * [273/360] Expectation Step  * [295/360] Expectation Step  * [321/360] Expectation Step  * [349/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181619, after:181619
+[35/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [27/360] Expectation Step  * [52/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [133/360] Expectation Step  * [156/360] Expectation Step  * [190/360] Expectation Step  * [209/360] Expectation Step  * [243/360] Expectation Step  * [268/360] Expectation Step  * [298/360] Expectation Step  * [320/360] Expectation Step  * [346/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181617, after:181617
+[36/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [43/360] Expectation Step  * [58/360] Expectation Step  * [81/360] Expectation Step  * [101/360] Expectation Step  * [134/360] Expectation Step  * [163/360] Expectation Step  * [196/360] Expectation Step  * [213/360] Expectation Step  * [229/360] Expectation Step  * [259/360] Expectation Step  * [283/360] Expectation Step  * [307/360] Expectation Step  * [331/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181616, after:181616
+[37/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [42/360] Expectation Step  * [64/360] Expectation Step  * [88/360] Expectation Step  * [108/360] Expectation Step  * [127/360] Expectation Step  * [151/360] Expectation Step  * [189/360] Expectation Step  * [215/360] Expectation Step  * [236/360] Expectation Step  * [262/360] Expectation Step  * [286/360] Expectation Step  * [311/360] Expectation Step  * [335/360] Expectation Step  * [360/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181615, after:181614
+[38/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [49/360] Expectation Step  * [55/360] Expectation Step  * [89/360] Expectation Step  * [114/360] Expectation Step  * [138/360] Expectation Step  * [162/360] Expectation Step  * [192/360] Expectation Step  * [221/360] Expectation Step  * [246/360] Expectation Step  * [270/360] Expectation Step  * [300/360] Expectation Step  * [325/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181613, after:181613
+[39/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [33/360] Expectation Step  * [62/360] Expectation Step  * [82/360] Expectation Step  * [112/360] Expectation Step  * [128/360] Expectation Step  * [153/360] Expectation Step  * [186/360] Expectation Step  * [210/360] Expectation Step  * [239/360] Expectation Step  * [265/360] Expectation Step  * [289/360] Expectation Step  * [313/360] Expectation Step  * [337/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181612, after:181612
+[40/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [46/360] Expectation Step  * [64/360] Expectation Step  * [87/360] Expectation Step  * [108/360] Expectation Step  * [128/360] Expectation Step  * [152/360] Expectation Step  * [184/360] Expectation Step  * [202/360] Expectation Step  * [229/360] Expectation Step  * [253/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [350/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181611, after:181611
+[41/100] Baumwelch iteration
+  * [2/360] Expectation Step  * [40/360] Expectation Step  * [58/360] Expectation Step  * [82/360] Expectation Step  * [104/360] Expectation Step  * [132/360] Expectation Step  * [152/360] Expectation Step  * [184/360] Expectation Step  * [203/360] Expectation Step  * [237/360] Expectation Step  * [259/360] Expectation Step  * [280/360] Expectation Step  * [304/360] Expectation Step  * [329/360] Expectation Step  * [354/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181610, after:181610
+[42/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [42/360] Expectation Step  * [67/360] Expectation Step  * [89/360] Expectation Step  * [112/360] Expectation Step  * [127/360] Expectation Step  * [150/360] Expectation Step  * [181/360] Expectation Step  * [201/360] Expectation Step  * [225/360] Expectation Step  * [250/360] Expectation Step  * [275/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181609, after:181609
+[43/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [26/360] Expectation Step  * [53/360] Expectation Step  * [80/360] Expectation Step  * [105/360] Expectation Step  * [145/360] Expectation Step  * [170/360] Expectation Step  * [181/360] Expectation Step  * [206/360] Expectation Step  * [244/360] Expectation Step  * [267/360] Expectation Step  * [292/360] Expectation Step  * [316/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181608, after:181608
+[44/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [47/360] Expectation Step  * [70/360] Expectation Step  * [100/360] Expectation Step  * [121/360] Expectation Step  * [143/360] Expectation Step  * [166/360] Expectation Step  * [176/360] Expectation Step  * [202/360] Expectation Step  * [227/360] Expectation Step  * [251/360] Expectation Step  * [277/360] Expectation Step  * [303/360] Expectation Step  * [327/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181607, after:181607
+[45/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [40/360] Expectation Step  * [65/360] Expectation Step  * [95/360] Expectation Step  * [111/360] Expectation Step  * [126/360] Expectation Step  * [154/360] Expectation Step  * [189/360] Expectation Step  * [214/360] Expectation Step  * [229/360] Expectation Step  * [253/360] Expectation Step  * [279/360] Expectation Step  * [302/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181606, after:181606
+[46/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [30/360] Expectation Step  * [53/360] Expectation Step  * [78/360] Expectation Step  * [102/360] Expectation Step  * [137/360] Expectation Step  * [162/360] Expectation Step  * [200/360] Expectation Step  * [225/360] Expectation Step  * [249/360] Expectation Step  * [271/360] Expectation Step  * [291/360] Expectation Step  * [316/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181606, after:181606
+[47/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [39/360] Expectation Step  * [58/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [133/360] Expectation Step  * [157/360] Expectation Step  * [187/360] Expectation Step  * [212/360] Expectation Step  * [227/360] Expectation Step  * [253/360] Expectation Step  * [279/360] Expectation Step  * [305/360] Expectation Step  * [329/360] Expectation Step  * [356/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181605, after:181605
+[48/100] Baumwelch iteration
+  * [2/360] Expectation Step  * [30/360] Expectation Step  * [55/360] Expectation Step  * [77/360] Expectation Step  * [107/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [184/360] Expectation Step  * [206/360] Expectation Step  * [238/360] Expectation Step  * [264/360] Expectation Step  * [288/360] Expectation Step  * [313/360] Expectation Step  * [338/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181604, after:181604
+[49/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [53/360] Expectation Step  * [77/360] Expectation Step  * [103/360] Expectation Step  * [136/360] Expectation Step  * [160/360] Expectation Step  * [192/360] Expectation Step  * [217/360] Expectation Step  * [233/360] Expectation Step  * [262/360] Expectation Step  * [282/360] Expectation Step  * [305/360] Expectation Step  * [331/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181604, after:181604
+[50/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [44/360] Expectation Step  * [61/360] Expectation Step  * [83/360] Expectation Step  * [109/360] Expectation Step  * [131/360] Expectation Step  * [158/360] Expectation Step  * [191/360] Expectation Step  * [222/360] Expectation Step  * [243/360] Expectation Step  * [268/360] Expectation Step  * [296/360] Expectation Step  * [321/360] Expectation Step  * [346/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181603, after:181603
+[51/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [44/360] Expectation Step  * [68/360] Expectation Step  * [92/360] Expectation Step  * [115/360] Expectation Step  * [129/360] Expectation Step  * [153/360] Expectation Step  * [189/360] Expectation Step  * [213/360] Expectation Step  * [227/360] Expectation Step  * [252/360] Expectation Step  * [275/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181603, after:181603
+[52/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [32/360] Expectation Step  * [60/360] Expectation Step  * [94/360] Expectation Step  * [109/360] Expectation Step  * [128/360] Expectation Step  * [151/360] Expectation Step  * [184/360] Expectation Step  * [208/360] Expectation Step  * [236/360] Expectation Step  * [258/360] Expectation Step  * [285/360] Expectation Step  * [309/360] Expectation Step  * [333/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181602, after:181602
+[53/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [51/360] Expectation Step  * [80/360] Expectation Step  * [105/360] Expectation Step  * [140/360] Expectation Step  * [165/360] Expectation Step  * [196/360] Expectation Step  * [213/360] Expectation Step  * [231/360] Expectation Step  * [253/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181601, after:181601
+[54/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [37/360] Expectation Step  * [57/360] Expectation Step  * [81/360] Expectation Step  * [100/360] Expectation Step  * [139/360] Expectation Step  * [163/360] Expectation Step  * [192/360] Expectation Step  * [218/360] Expectation Step  * [240/360] Expectation Step  * [265/360] Expectation Step  * [290/360] Expectation Step  * [315/360] Expectation Step  * [340/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181600, after:181600
+[55/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [68/360] Expectation Step  * [84/360] Expectation Step  * [122/360] Expectation Step  * [145/360] Expectation Step  * [166/360] Expectation Step  * [178/360] Expectation Step  * [204/360] Expectation Step  * [230/360] Expectation Step  * [253/360] Expectation Step  * [277/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181600, after:181600
+[56/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [26/360] Expectation Step  * [51/360] Expectation Step  * [75/360] Expectation Step  * [100/360] Expectation Step  * [133/360] Expectation Step  * [156/360] Expectation Step  * [189/360] Expectation Step  * [217/360] Expectation Step  * [242/360] Expectation Step  * [267/360] Expectation Step  * [295/360] Expectation Step  * [318/360] Expectation Step  * [343/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181599, after:181599
+[57/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [40/360] Expectation Step  * [57/360] Expectation Step  * [86/360] Expectation Step  * [116/360] Expectation Step  * [139/360] Expectation Step  * [169/360] Expectation Step  * [177/360] Expectation Step  * [205/360] Expectation Step  * [231/360] Expectation Step  * [254/360] Expectation Step  * [278/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [354/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181598, after:181598
+[58/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [50/360] Expectation Step  * [59/360] Expectation Step  * [77/360] Expectation Step  * [117/360] Expectation Step  * [136/360] Expectation Step  * [164/360] Expectation Step  * [194/360] Expectation Step  * [223/360] Expectation Step  * [249/360] Expectation Step  * [271/360] Expectation Step  * [292/360] Expectation Step  * [316/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181597, after:181597
+[59/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [26/360] Expectation Step  * [53/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [130/360] Expectation Step  * [156/360] Expectation Step  * [192/360] Expectation Step  * [224/360] Expectation Step  * [234/360] Expectation Step  * [256/360] Expectation Step  * [281/360] Expectation Step  * [304/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181597, after:181597
+[60/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [31/360] Expectation Step  * [56/360] Expectation Step  * [78/360] Expectation Step  * [110/360] Expectation Step  * [128/360] Expectation Step  * [155/360] Expectation Step  * [195/360] Expectation Step  * [221/360] Expectation Step  * [246/360] Expectation Step  * [271/360] Expectation Step  * [291/360] Expectation Step  * [316/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181596, after:181596
+[61/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [48/360] Expectation Step  * [59/360] Expectation Step  * [82/360] Expectation Step  * [112/360] Expectation Step  * [131/360] Expectation Step  * [155/360] Expectation Step  * [189/360] Expectation Step  * [209/360] Expectation Step  * [244/360] Expectation Step  * [267/360] Expectation Step  * [293/360] Expectation Step  * [318/360] Expectation Step  * [346/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181596, after:181596
+[62/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [33/360] Expectation Step  * [60/360] Expectation Step  * [89/360] Expectation Step  * [114/360] Expectation Step  * [132/360] Expectation Step  * [163/360] Expectation Step  * [198/360] Expectation Step  * [222/360] Expectation Step  * [234/360] Expectation Step  * [258/360] Expectation Step  * [280/360] Expectation Step  * [305/360] Expectation Step  * [330/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181595, after:181595
+[63/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [63/360] Expectation Step  * [94/360] Expectation Step  * [118/360] Expectation Step  * [127/360] Expectation Step  * [153/360] Expectation Step  * [186/360] Expectation Step  * [209/360] Expectation Step  * [242/360] Expectation Step  * [269/360] Expectation Step  * [296/360] Expectation Step  * [319/360] Expectation Step  * [343/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181595, after:181595
+[64/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [34/360] Expectation Step  * [59/360] Expectation Step  * [88/360] Expectation Step  * [110/360] Expectation Step  * [127/360] Expectation Step  * [153/360] Expectation Step  * [189/360] Expectation Step  * [216/360] Expectation Step  * [234/360] Expectation Step  * [260/360] Expectation Step  * [285/360] Expectation Step  * [311/360] Expectation Step  * [336/360] Expectation Step  * [356/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181594, after:181594
+[65/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [29/360] Expectation Step  * [54/360] Expectation Step  * [82/360] Expectation Step  * [107/360] Expectation Step  * [127/360] Expectation Step  * [151/360] Expectation Step  * [180/360] Expectation Step  * [208/360] Expectation Step  * [240/360] Expectation Step  * [257/360] Expectation Step  * [285/360] Expectation Step  * [310/360] Expectation Step  * [337/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181594, after:181594
+[66/100] Baumwelch iteration
+  * [2/360] Expectation Step  * [30/360] Expectation Step  * [51/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [133/360] Expectation Step  * [153/360] Expectation Step  * [185/360] Expectation Step  * [207/360] Expectation Step  * [229/360] Expectation Step  * [255/360] Expectation Step  * [277/360] Expectation Step  * [302/360] Expectation Step  * [328/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181593, after:181593
+[67/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [65/360] Expectation Step  * [79/360] Expectation Step  * [105/360] Expectation Step  * [139/360] Expectation Step  * [157/360] Expectation Step  * [187/360] Expectation Step  * [204/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [278/360] Expectation Step  * [304/360] Expectation Step  * [329/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181593, after:181593
+[68/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [26/360] Expectation Step  * [51/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [177/360] Expectation Step  * [203/360] Expectation Step  * [228/360] Expectation Step  * [255/360] Expectation Step  * [279/360] Expectation Step  * [305/360] Expectation Step  * [329/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181593, after:181593
+[69/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [50/360] Expectation Step  * [75/360] Expectation Step  * [92/360] Expectation Step  * [122/360] Expectation Step  * [146/360] Expectation Step  * [170/360] Expectation Step  * [176/360] Expectation Step  * [201/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181592, after:181592
+[70/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [44/360] Expectation Step  * [59/360] Expectation Step  * [84/360] Expectation Step  * [114/360] Expectation Step  * [127/360] Expectation Step  * [156/360] Expectation Step  * [187/360] Expectation Step  * [203/360] Expectation Step  * [235/360] Expectation Step  * [259/360] Expectation Step  * [285/360] Expectation Step  * [312/360] Expectation Step  * [338/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181591, after:181591
+[71/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [31/360] Expectation Step  * [54/360] Expectation Step  * [81/360] Expectation Step  * [112/360] Expectation Step  * [136/360] Expectation Step  * [157/360] Expectation Step  * [186/360] Expectation Step  * [210/360] Expectation Step  * [233/360] Expectation Step  * [261/360] Expectation Step  * [280/360] Expectation Step  * [305/360] Expectation Step  * [330/360] Expectation Step  * [359/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181591, after:181591
+[72/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [37/360] Expectation Step  * [56/360] Expectation Step  * [76/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [187/360] Expectation Step  * [219/360] Expectation Step  * [236/360] Expectation Step  * [262/360] Expectation Step  * [287/360] Expectation Step  * [312/360] Expectation Step  * [336/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181590, after:181590
+[73/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [56/360] Expectation Step  * [82/360] Expectation Step  * [111/360] Expectation Step  * [131/360] Expectation Step  * [152/360] Expectation Step  * [192/360] Expectation Step  * [209/360] Expectation Step  * [233/360] Expectation Step  * [254/360] Expectation Step  * [279/360] Expectation Step  * [304/360] Expectation Step  * [328/360] Expectation Step  * [354/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181589, after:181589
+[74/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [54/360] Expectation Step  * [79/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [182/360] Expectation Step  * [202/360] Expectation Step  * [229/360] Expectation Step  * [251/360] Expectation Step  * [277/360] Expectation Step  * [302/360] Expectation Step  * [326/360] Expectation Step  * [349/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181589, after:181589
+[75/100] Baumwelch iteration
+  * [2/360] Expectation Step  * [39/360] Expectation Step  * [60/360] Expectation Step  * [83/360] Expectation Step  * [120/360] Expectation Step  * [140/360] Expectation Step  * [165/360] Expectation Step  * [196/360] Expectation Step  * [212/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [302/360] Expectation Step  * [327/360] Expectation Step  * [352/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181588, after:181588
+[76/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [35/360] Expectation Step  * [54/360] Expectation Step  * [78/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [186/360] Expectation Step  * [208/360] Expectation Step  * [234/360] Expectation Step  * [263/360] Expectation Step  * [288/360] Expectation Step  * [313/360] Expectation Step  * [338/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181588, after:181588
+[77/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [61/360] Expectation Step  * [79/360] Expectation Step  * [103/360] Expectation Step  * [134/360] Expectation Step  * [155/360] Expectation Step  * [189/360] Expectation Step  * [217/360] Expectation Step  * [235/360] Expectation Step  * [259/360] Expectation Step  * [289/360] Expectation Step  * [314/360] Expectation Step  * [336/360] Expectation Step  * [360/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181587, after:181587
+[78/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [36/360] Expectation Step  * [60/360] Expectation Step  * [80/360] Expectation Step  * [105/360] Expectation Step  * [144/360] Expectation Step  * [168/360] Expectation Step  * [177/360] Expectation Step  * [201/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181587, after:181587
+[79/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [48/360] Expectation Step  * [57/360] Expectation Step  * [78/360] Expectation Step  * [101/360] Expectation Step  * [131/360] Expectation Step  * [159/360] Expectation Step  * [192/360] Expectation Step  * [223/360] Expectation Step  * [245/360] Expectation Step  * [274/360] Expectation Step  * [297/360] Expectation Step  * [325/360] Expectation Step  * [350/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181586, after:181586
+[80/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [32/360] Expectation Step  * [55/360] Expectation Step  * [79/360] Expectation Step  * [106/360] Expectation Step  * [135/360] Expectation Step  * [167/360] Expectation Step  * [176/360] Expectation Step  * [204/360] Expectation Step  * [231/360] Expectation Step  * [258/360] Expectation Step  * [281/360] Expectation Step  * [304/360] Expectation Step  * [326/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181585, after:181585
+[81/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [32/360] Expectation Step  * [62/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [128/360] Expectation Step  * [151/360] Expectation Step  * [184/360] Expectation Step  * [203/360] Expectation Step  * [234/360] Expectation Step  * [265/360] Expectation Step  * [290/360] Expectation Step  * [315/360] Expectation Step  * [340/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181585, after:181585
+[82/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [46/360] Expectation Step  * [65/360] Expectation Step  * [87/360] Expectation Step  * [115/360] Expectation Step  * [140/360] Expectation Step  * [168/360] Expectation Step  * [178/360] Expectation Step  * [206/360] Expectation Step  * [240/360] Expectation Step  * [265/360] Expectation Step  * [295/360] Expectation Step  * [321/360] Expectation Step  * [344/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181584, after:181584
+[83/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [43/360] Expectation Step  * [74/360] Expectation Step  * [99/360] Expectation Step  * [122/360] Expectation Step  * [148/360] Expectation Step  * [174/360] Expectation Step  * [183/360] Expectation Step  * [201/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181583, after:181583
+[84/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [40/360] Expectation Step  * [60/360] Expectation Step  * [86/360] Expectation Step  * [115/360] Expectation Step  * [139/360] Expectation Step  * [166/360] Expectation Step  * [179/360] Expectation Step  * [209/360] Expectation Step  * [239/360] Expectation Step  * [261/360] Expectation Step  * [281/360] Expectation Step  * [304/360] Expectation Step  * [329/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181583, after:181583
+[85/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [49/360] Expectation Step  * [75/360] Expectation Step  * [100/360] Expectation Step  * [122/360] Expectation Step  * [145/360] Expectation Step  * [168/360] Expectation Step  * [180/360] Expectation Step  * [208/360] Expectation Step  * [231/360] Expectation Step  * [256/360] Expectation Step  * [281/360] Expectation Step  * [307/360] Expectation Step  * [328/360] Expectation Step  * [355/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181582, after:181582
+[86/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [35/360] Expectation Step  * [67/360] Expectation Step  * [93/360] Expectation Step  * [114/360] Expectation Step  * [143/360] Expectation Step  * [167/360] Expectation Step  * [176/360] Expectation Step  * [207/360] Expectation Step  * [235/360] Expectation Step  * [260/360] Expectation Step  * [287/360] Expectation Step  * [313/360] Expectation Step  * [337/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181582, after:181582
+[87/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [26/360] Expectation Step  * [52/360] Expectation Step  * [76/360] Expectation Step  * [101/360] Expectation Step  * [133/360] Expectation Step  * [158/360] Expectation Step  * [186/360] Expectation Step  * [214/360] Expectation Step  * [237/360] Expectation Step  * [263/360] Expectation Step  * [286/360] Expectation Step  * [306/360] Expectation Step  * [331/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181581, after:181581
+[88/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [53/360] Expectation Step  * [77/360] Expectation Step  * [102/360] Expectation Step  * [138/360] Expectation Step  * [165/360] Expectation Step  * [189/360] Expectation Step  * [215/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [278/360] Expectation Step  * [304/360] Expectation Step  * [328/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181581, after:181581
+[89/100] Baumwelch iteration
+  * [2/360] Expectation Step  * [31/360] Expectation Step  * [54/360] Expectation Step  * [79/360] Expectation Step  * [101/360] Expectation Step  * [134/360] Expectation Step  * [155/360] Expectation Step  * [188/360] Expectation Step  * [210/360] Expectation Step  * [230/360] Expectation Step  * [256/360] Expectation Step  * [282/360] Expectation Step  * [304/360] Expectation Step  * [330/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181580, after:181580
+[90/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [34/360] Expectation Step  * [68/360] Expectation Step  * [99/360] Expectation Step  * [123/360] Expectation Step  * [145/360] Expectation Step  * [166/360] Expectation Step  * [183/360] Expectation Step  * [202/360] Expectation Step  * [228/360] Expectation Step  * [252/360] Expectation Step  * [276/360] Expectation Step  * [302/360] Expectation Step  * [327/360] Expectation Step  * [347/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181580, after:181580
+[91/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [32/360] Expectation Step  * [60/360] Expectation Step  * [79/360] Expectation Step  * [102/360] Expectation Step  * [135/360] Expectation Step  * [152/360] Expectation Step  * [188/360] Expectation Step  * [219/360] Expectation Step  * [248/360] Expectation Step  * [274/360] Expectation Step  * [293/360] Expectation Step  * [319/360] Expectation Step  * [344/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181579, after:181579
+[92/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [28/360] Expectation Step  * [60/360] Expectation Step  * [79/360] Expectation Step  * [102/360] Expectation Step  * [129/360] Expectation Step  * [161/360] Expectation Step  * [198/360] Expectation Step  * [219/360] Expectation Step  * [239/360] Expectation Step  * [263/360] Expectation Step  * [290/360] Expectation Step  * [315/360] Expectation Step  * [339/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181578, after:181578
+[93/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [39/360] Expectation Step  * [64/360] Expectation Step  * [91/360] Expectation Step  * [114/360] Expectation Step  * [129/360] Expectation Step  * [155/360] Expectation Step  * [190/360] Expectation Step  * [215/360] Expectation Step  * [230/360] Expectation Step  * [256/360] Expectation Step  * [281/360] Expectation Step  * [305/360] Expectation Step  * [330/360] Expectation Step  * [353/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181578, after:181578
+[94/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [45/360] Expectation Step  * [67/360] Expectation Step  * [78/360] Expectation Step  * [107/360] Expectation Step  * [127/360] Expectation Step  * [153/360] Expectation Step  * [188/360] Expectation Step  * [204/360] Expectation Step  * [226/360] Expectation Step  * [252/360] Expectation Step  * [276/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [349/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181577, after:181577
+[95/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [30/360] Expectation Step  * [53/360] Expectation Step  * [77/360] Expectation Step  * [104/360] Expectation Step  * [144/360] Expectation Step  * [170/360] Expectation Step  * [176/360] Expectation Step  * [209/360] Expectation Step  * [248/360] Expectation Step  * [274/360] Expectation Step  * [297/360] Expectation Step  * [321/360] Expectation Step  * [345/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181577, after:181577
+[96/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [34/360] Expectation Step  * [73/360] Expectation Step  * [100/360] Expectation Step  * [105/360] Expectation Step  * [137/360] Expectation Step  * [161/360] Expectation Step  * [200/360] Expectation Step  * [222/360] Expectation Step  * [242/360] Expectation Step  * [269/360] Expectation Step  * [296/360] Expectation Step  * [318/360] Expectation Step  * [344/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181576, after:181576
+[97/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [43/360] Expectation Step  * [74/360] Expectation Step  * [88/360] Expectation Step  * [104/360] Expectation Step  * [139/360] Expectation Step  * [159/360] Expectation Step  * [187/360] Expectation Step  * [209/360] Expectation Step  * [246/360] Expectation Step  * [266/360] Expectation Step  * [292/360] Expectation Step  * [316/360] Expectation Step  * [341/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181576, after:181576
+[98/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [37/360] Expectation Step  * [60/360] Expectation Step  * [89/360] Expectation Step  * [122/360] Expectation Step  * [147/360] Expectation Step  * [170/360] Expectation Step  * [178/360] Expectation Step  * [202/360] Expectation Step  * [230/360] Expectation Step  * [259/360] Expectation Step  * [282/360] Expectation Step  * [301/360] Expectation Step  * [326/360] Expectation Step  * [351/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181575, after:181575
+[99/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [38/360] Expectation Step  * [59/360] Expectation Step  * [77/360] Expectation Step  * [104/360] Expectation Step  * [146/360] Expectation Step  * [172/360] Expectation Step  * [179/360] Expectation Step  * [202/360] Expectation Step  * [226/360] Expectation Step  * [251/360] Expectation Step  * [276/360] Expectation Step  * [302/360] Expectation Step  * [329/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181575, after:181575
+[100/100] Baumwelch iteration
+  * [1/360] Expectation Step  * [33/360] Expectation Step  * [66/360] Expectation Step  * [84/360] Expectation Step  * [106/360] Expectation Step  * [126/360] Expectation Step  * [151/360] Expectation Step  * [178/360] Expectation Step  * [206/360] Expectation Step  * [232/360] Expectation Step  * [256/360] Expectation Step  * [281/360] Expectation Step  * [306/360] Expectation Step  * [329/360] Expectation Step  * [357/360] Expectation Step, log likelihood: -1.25633e+08
+  * [0/200(max)] Maximization Step, Q-function before: 181574, after:181574

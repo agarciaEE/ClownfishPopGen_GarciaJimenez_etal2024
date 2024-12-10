@@ -1,0 +1,317 @@
+Version:                       2.1.4
+input files:                   ["/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr10.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr11.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr12.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr13.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr14.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr15.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr16.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr17.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr18.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr19.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr1.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr20.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr21.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr22.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr23.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr24.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr2.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr3.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr4.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr5.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr6.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr7.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr8.txt", "/work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/inputPOP2/bootstraps/PRD.NA.bootstrap_34/bootstrap_multihetsep.chr9.txt"]
+maxIterations:                 100
+mutationRate:                  0.00101119
+recombinationRate:             0.000252798
+timeSegmentPattern:            [2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2]
+nrThreads:                     24
+outFilePrefix:                 /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results/bootstraps/PRD/PRD_NA.bootstrap_34.chr_all.3randind.msmc2
+hmmStrideWidth:                1000
+fixedRecombination:            false
+initialLambdaVec:              []
+skipAmbiguous:                 true
+pairIndices:                   [[0, 1]]
+logging information written to /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results/bootstraps/PRD/PRD_NA.bootstrap_34.chr_all.3randind.msmc2.log
+loop information written to    /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results/bootstraps/PRD/PRD_NA.bootstrap_34.chr_all.3randind.msmc2.loop.txt
+final results written to       /work/FAC/FBM/DBC/nsalamin/clownfish/agarciaj/MSMC/POP_results/bootstraps/PRD/PRD_NA.bootstrap_34.chr_all.3randind.msmc2.final.txt
+time factor:                   1
+[1/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.25694e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6019.09, after:6017.8
+[2/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.25457e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6126.95, after:6126
+[3/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.25281e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6234.06, after:6233.33
+[4/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.25142e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6340.6, after:6340.01
+[5/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2503e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6446.36, after:6445.87
+[6/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24935e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6551.22, after:6550.8
+[7/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24854e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6655.1, after:6654.74
+[8/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24781e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6758, after:6757.67
+[9/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24716e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6859.93, after:6859.63
+[10/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24656e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 6960.92, after:6960.64
+[11/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24601e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7061.01, after:7060.76
+[12/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2455e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7160.26, after:7160.02
+[13/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24502e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7258.68, after:7258.46
+[14/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24457e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7356.33, after:7356.12
+[15/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24414e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7453.24, after:7453.04
+[16/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24374e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7549.44, after:7549.25
+[17/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24335e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7644.96, after:7644.78
+[18/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24298e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7739.84, after:7739.67
+[19/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24263e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7834.09, after:7833.93
+[20/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24229e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 7927.75, after:7927.59
+[21/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24196e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8020.83, after:8020.67
+[22/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24164e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8113.36, after:8113.21
+[23/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24134e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8205.35, after:8205.2
+[24/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24105e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8296.82, after:8296.68
+[25/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24076e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8387.8, after:8387.66
+[26/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24049e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8478.29, after:8478.16
+[27/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.24022e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8568.31, after:8568.19
+[28/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23996e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8657.88, after:8657.75
+[29/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23971e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8747, after:8746.88
+[30/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23947e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8835.68, after:8835.57
+[31/100] Baumwelch iteration
+  * [2/24] Expectation Step, log likelihood: -4.23923e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 8923.95, after:8923.84
+[32/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.239e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9011.8, after:9011.69
+[33/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23877e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9099.25, after:9099.14
+[34/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23856e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9186.3, after:9186.2
+[35/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23834e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9272.97, after:9272.87
+[36/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23813e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9359.26, after:9359.16
+[37/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23793e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9445.17, after:9445.08
+[38/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23773e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9530.72, after:9530.62
+[39/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23754e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9615.9, after:9615.81
+[40/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23734e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9700.73, after:9700.64
+[41/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23716e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9785.21, after:9785.12
+[42/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23698e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9869.35, after:9869.26
+[43/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2368e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 9953.14, after:9953.05
+[44/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23662e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10036.6, after:10036.5
+[45/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23645e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10119.7, after:10119.6
+[46/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23628e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10202.5, after:10202.4
+[47/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23612e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10285, after:10284.9
+[48/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23596e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10367.1, after:10367
+[49/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2358e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10448.9, after:10448.8
+[50/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23565e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10530.4, after:10530.3
+[51/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23549e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10611.6, after:10611.5
+[52/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23534e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10692.4, after:10692.4
+[53/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2352e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10773, after:10772.9
+[54/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23505e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10853.2, after:10853.1
+[55/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23491e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 10933.1, after:10933.1
+[56/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23477e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11012.8, after:11012.7
+[57/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23463e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11092.1, after:11092
+[58/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2345e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11171.1, after:11171
+[59/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23437e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11249.8, after:11249.7
+[60/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23424e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11328.2, after:11328.1
+[61/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23411e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11406.3, after:11406.2
+[62/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23398e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11484.1, after:11484
+[63/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23386e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11561.6, after:11561.5
+[64/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23374e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11638.8, after:11638.7
+[65/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23362e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11715.7, after:11715.7
+[66/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2335e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11792.3, after:11792.3
+[67/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23338e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11868.7, after:11868.6
+[68/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23327e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 11944.7, after:11944.6
+[69/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23315e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12020.4, after:12020.4
+[70/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23304e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12095.9, after:12095.8
+[71/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23293e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12171, after:12171
+[72/100] Baumwelch iteration
+  * [2/24] Expectation Step, log likelihood: -4.23282e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12245.9, after:12245.9
+[73/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23272e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12320.5, after:12320.5
+[74/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23261e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12394.8, after:12394.8
+[75/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23251e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12468.8, after:12468.8
+[76/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23241e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12542.6, after:12542.5
+[77/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23231e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12616, after:12616
+[78/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23221e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12689.2, after:12689.1
+[79/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23211e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12762.1, after:12762
+[80/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23201e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12834.7, after:12834.6
+[81/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23192e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12907, after:12907
+[82/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23182e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 12979.1, after:12979
+[83/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23173e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13050.8, after:13050.8
+[84/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23164e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13122.3, after:13122.3
+[85/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23155e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13193.5, after:13193.5
+[86/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23146e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13264.5, after:13264.5
+[87/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23137e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13335.2, after:13335.1
+[88/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23129e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13405.6, after:13405.5
+[89/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2312e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13475.7, after:13475.7
+[90/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23112e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13545.6, after:13545.5
+[91/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23103e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13615.2, after:13615.1
+[92/100] Baumwelch iteration
+  * [2/24] Expectation Step, log likelihood: -4.23095e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13684.5, after:13684.4
+[93/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23087e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13753.5, after:13753.5
+[94/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23079e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13822.3, after:13822.3
+[95/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23071e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13890.8, after:13890.8
+[96/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23063e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 13959.1, after:13959.1
+[97/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23055e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 14027.1, after:14027.1
+[98/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23047e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 14094.8, after:14094.8
+[99/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.2304e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 14162.3, after:14162.2
+[100/100] Baumwelch iteration
+  * [1/24] Expectation Step, log likelihood: -4.23032e+06
+  * [0/200(max)] Maximization Step  * [1/200(max)] Maximization Step  * [2/200(max)] Maximization Step, Q-function before: 14229.5, after:14229.4
