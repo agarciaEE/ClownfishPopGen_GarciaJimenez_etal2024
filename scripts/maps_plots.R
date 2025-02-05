@@ -1,5 +1,5 @@
 if(!("plotmaps" %in% installed.packages()[,1])){
-  remotes::install_github("halasadi/plotmaps", auth_token = Sys.getenv("GITHUB_PAT"))
+  remotes::install_github("halasadi/plotmaps")
 }
 library(plotmaps)
 library(sf)
@@ -23,7 +23,7 @@ path <- "./analyses/maps/"
 #####
 ## Load samples info
 #####
-data <- read.csv("./raw_data/samples_info.csv")
+data <- read.csv("./data/samples_info.csv")
 
 colnames(data) <- c("sample_ID", "species", "abbrev", 
                     "country", "country_ID",
@@ -72,14 +72,14 @@ area_threshold <- 100000 * 1000000  # 100,000 km^2 in m^2
 continental_map <- continental_map[as.numeric(continental_map$area) > area_threshold, ]
 
 # Get major currents
-currents <- read_sf("./raw_data/currents_maps/Major_Ocean_Currents/") %>%
+currents <- read_sf("./data/Major_Ocean_Currents/") %>%
   st_shift_longitude()
 
 currents <- currents %>%
   filter(!currents$NAME %in% c("Guinea", "Norwegian") & !currents$OBJECTID %in% c(103, 104, 105)) 
 
 # Get ITF currents
-ITF <- raster("./raw_data/currents_maps/ITFcurrent.tif")
+ITF <- raster("./data/currents_maps/ITFcurrent.tif")
 ITF[ITF>10] = NA
 ITF[ITF>0] = 1
 extent(ITF) <- c(84.5, 164, -29, 31.5)
